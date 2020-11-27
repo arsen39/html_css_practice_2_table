@@ -59,51 +59,19 @@ thead th:nth-child(5){
   background-color: #061539;
 }
 
-tbody tr:nth-child(1) > :nth-child(2n){
+tbody tr:nth-child(2n+1) > :nth-child(2n){
   background-color: #e7e7e7;
 }
 
-tbody tr:nth-child(1) > :nth-child(2n + 1){
+tbody tr:nth-child(2n+1) > :nth-child(2n + 1){
   background-color: #dbdbdb;
 }
 
-tbody tr:nth-child(2) > :nth-child(2n){
+tbody tr:nth-child(2n) > :nth-child(2n){
   background-color:#f3f3f3;
 }
 
-tbody tr:nth-child(2) > :nth-child(2n + 1){
-  background-color: #ececec;
-}
-
-tbody tr:nth-child(3) > :nth-child(2n){
-  background-color: #e7e7e7;
-}
-
-tbody tr:nth-child(3) > :nth-child(2n + 1){
-  background-color: #dbdbdb;
-}
-
-tbody tr:nth-child(4) > :nth-child(2n){
-  background-color:#f3f3f3;
-}
-
-tbody tr:nth-child(4) > :nth-child(2n + 1){
-  background-color: #ececec;
-}
-
-tbody tr:nth-child(5) > :nth-child(2n){
-  background-color: #e7e7e7;
-}
-
-tbody tr:nth-child(5) > :nth-child(2n + 1){
-  background-color: #dbdbdb;
-}
-
-tbody tr:nth-child(6) > :nth-child(2n){
-  background-color:#f3f3f3;
-}
-
-tbody tr:nth-child(6) > :nth-child(2n + 1){
+tbody tr:nth-child(2n) > :nth-child(2n + 1){
   background-color: #ececec;
 }
 
