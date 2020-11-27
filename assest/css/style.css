@@ -1,0 +1,132 @@
+body{
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  background-color: #d3d3d3;
+  border: 1px solid #b9b9b9;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #686764;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+b {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+div{
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th{
+  border-collapse: collapse;
+}
+
+thead th{
+  padding: 20px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+thead th:nth-child(1){
+  background-color: #7887ab;
+  vertical-align: middle;
+}
+
+thead th:nth-child(2){
+  background-color: #4f628e;
+}
+
+thead th:nth-child(3){
+  background-color: #2e4172;
+}
+
+thead th:nth-child(4){
+  background-color: #162955;
+}
+
+thead th:nth-child(5){
+  background-color: #061539;
+}
+
+tbody tr:nth-child(1) > :nth-child(2n){
+  background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(1) > :nth-child(2n + 1){
+  background-color: #dbdbdb;
+}
+
+tbody tr:nth-child(2) > :nth-child(2n){
+  background-color:#f3f3f3;
+}
+
+tbody tr:nth-child(2) > :nth-child(2n + 1){
+  background-color: #ececec;
+}
+
+tbody tr:nth-child(3) > :nth-child(2n){
+  background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(3) > :nth-child(2n + 1){
+  background-color: #dbdbdb;
+}
+
+tbody tr:nth-child(4) > :nth-child(2n){
+  background-color:#f3f3f3;
+}
+
+tbody tr:nth-child(4) > :nth-child(2n + 1){
+  background-color: #ececec;
+}
+
+tbody tr:nth-child(5) > :nth-child(2n){
+  background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(5) > :nth-child(2n + 1){
+  background-color: #dbdbdb;
+}
+
+tbody tr:nth-child(6) > :nth-child(2n){
+  background-color:#f3f3f3;
+}
+
+tbody tr:nth-child(6) > :nth-child(2n + 1){
+  background-color: #ececec;
+}
+
+tfoot tr:nth-child(1) > :nth-child(2n){
+  background-color:#e7e7e7;
+}
+
+tfoot tr:nth-child(1) > :nth-child(2n + 1){
+  background-color: #dbdbdb;
+}
+
+tbody th{
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+tfoot th{
+  padding: 15px 10px;
+  font-size: 12px;
+}
+
+table th:first-child{
+  text-align: left;
+}
+
+
