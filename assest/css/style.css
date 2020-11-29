@@ -27,8 +27,13 @@ div{
   overflow: hidden;
 }
 
-table th{
+table {
   border-collapse: collapse;
+  text-align: center;
+}
+
+table td:first-child{
+  text-align: left;
 }
 
 thead th{
@@ -36,6 +41,16 @@ thead th{
   font-size: 20px;
   font-weight: bold;
   color: white;
+}
+
+tbody td{
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+tfoot td{
+  padding: 15px 10px;
+  font-size: 12px;
 }
 
 thead th:nth-child(1){
@@ -59,11 +74,11 @@ thead th:nth-child(5){
   background-color: #061539;
 }
 
-tbody tr:nth-child(2n+1) > :nth-child(2n){
+tbody tr:nth-child(2n+1) > :nth-child(2n), tfoot tr:nth-child(1) > :nth-child(2n){
   background-color: #e7e7e7;
 }
 
-tbody tr:nth-child(2n+1) > :nth-child(2n + 1){
+tbody tr:nth-child(2n+1) > :nth-child(2n + 1), tfoot tr:nth-child(1) > :nth-child(2n + 1){
   background-color: #dbdbdb;
 }
 
@@ -74,27 +89,4 @@ tbody tr:nth-child(2n) > :nth-child(2n){
 tbody tr:nth-child(2n) > :nth-child(2n + 1){
   background-color: #ececec;
 }
-
-tfoot tr:nth-child(1) > :nth-child(2n){
-  background-color:#e7e7e7;
-}
-
-tfoot tr:nth-child(1) > :nth-child(2n + 1){
-  background-color: #dbdbdb;
-}
-
-tbody th{
-  padding: 10px 10px;
-  font-size: 12px;
-}
-
-tfoot th{
-  padding: 15px 10px;
-  font-size: 12px;
-}
-
-table th:first-child{
-  text-align: left;
-}
-
 
